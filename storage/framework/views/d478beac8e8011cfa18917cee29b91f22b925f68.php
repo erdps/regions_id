@@ -1,0 +1,1 @@
+<h1>OKE</h1><?php /**PATH C:\xampp\htdocs\designcub3\resources\views/prod/index.blade.php ENDPATH**/ ?>

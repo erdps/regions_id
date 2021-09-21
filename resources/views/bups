@@ -1,0 +1,32 @@
+<header>
+    <!-- Link CSS, Bootstrap, JS -->
+        <!-- CSS Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+       
+        <!-- JavaScript Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</header>
+
+
+<title>Tugas 2</title>        
+    <h1>Get the latest insight into property and infrastructure</h1>
+    
+  <div class="mb-3">
+  <div class="col-sm-3">
+  <form method="POST" action="">
+      @csrf 
+      
+    <label for="InputEmail" class="form-label">Email Address</label>
+    <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email..." aria-describedby="emailHelp">
+  </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Subscribe</button>
+</form>
+
+
+
+@if($errors->any())
+@foreach ($errors->all() as $err)
